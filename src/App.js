@@ -1,6 +1,11 @@
-import Home from "./Home";
-import "./App.css";
+import ContentCarousel from "./ContentCarousel";
 
-export default function App() {
-  return <Home />;
+function App() {
+  return (
+    <div className="App">
+      <ContentCarousel />
+    </div>
+  );
 }
+
+export default App;
